@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
         children: <Widget>[
           Expanded(
             child: ListView.builder(
-              itemCount: data.length,//number of data
+              itemCount: data.length, //number of data
               itemBuilder: (BuildContext context, int index) {
                 //display the details in card view in list
                 return Card(
@@ -97,7 +97,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 );
               },
             ),
-            
           ),
         ],
       ),
